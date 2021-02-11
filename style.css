@@ -13,10 +13,14 @@
   .col-11 {width: 91.66%;}
   .col-12 {width: 100%;}
 }
+body{
+	margin:0px;
+}
 div{
+	font-family:Tahoma;
 	width: 60%;
 	margin: auto;
-	padding-bottom:10px;
+	padding:20px;
 	background-color: #e3e3e3;
 }
 img {
@@ -30,7 +34,8 @@ img {
 h1{
 	text-align:center;
 }
-h2{
+h2.national{
+	font-family:Courier New;
 	text-align:center;
 }
 hr{
@@ -38,4 +43,8 @@ hr{
 }
 p{
 	text-align:center;
+}
+ul{
+	line-height: 1.5;
+	font-size: 17px;
 }
